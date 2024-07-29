@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # Set the API key directly for simplicity
-API_KEY = "AIzaSyDRDD-9HZWdu8gSxPf2ZqfDe_MzqijI5fM"
+API_KEY = ""
 genai.configure(api_key=API_KEY)
 
 def get_suggestion(prompt):
